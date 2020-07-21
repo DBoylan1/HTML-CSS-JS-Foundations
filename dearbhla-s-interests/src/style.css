@@ -1,0 +1,21 @@
+.top{
+  text-align: center;
+  color: #1C0556;
+  
+}
+body{
+  background-color: #E7C5F5;
+}
+
+
+.box {
+  background-color: #C59AEE;
+  border: solid;
+  border-width: 1px;
+  border-color: #552087;
+  margin: 0px 2px 15px 2px;
+  padding: 0px 17px 5px 17px;
+  border-radius: 25px;
+  font-family:  sans-serif;
+}
+

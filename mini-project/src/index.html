@@ -1,0 +1,35 @@
+<script src="https://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js" >
+</script>
+<div class = "header">
+<h1>Filter Project</h1>
+</div>
+<div class = "body">
+<h2> Have fun using filters to change your image </h2>
+
+<canvas id = "can1">
+</canvas>
+
+<p>
+Load Image: <input type="file" multiple="false" accept="image/*" id="file" onchange="loadImage()" >
+</p>
+<p>
+  Choose a filter
+</p>
+<p>
+   
+Filters:
+  </p>
+  <p>
+    <div class = "button">
+    <input type="button"  id="greyFilter" value = "Greyscale" onclick = "greyImage()" style = "background-color:#feb300; " > 
+  <input type="button"  id="redFilter" value = "Red" onclick = "redImage()" style = "background-color:#feb300;" >
+  <input type="button"  id="otherFilter" value = "Other" onclick = "otherImage()" style = "background-color:#feb300;" >
+  </div>
+</p>
+ 
+<p>
+Reset Image: <input type="button" value="Reset" onclick="resetImage()" >
+</p>
+<br>
+<br>
+</div>

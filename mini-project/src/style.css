@@ -1,0 +1,27 @@
+canvas {
+  border: 1px solid #c3c3c3;
+  height: 200px;
+}
+.header {
+  padding: 60px;
+  text-align: center;
+  background: #ff5e6c;
+  color: white;
+  font-size: 30px;
+}
+.body {
+  font-family: arial;
+  font-size: 20px;
+  background: #fff5d7;
+}
+.button {
+
+  border: none;
+  padding: 32px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  border-radius: 12px;
+
+}
